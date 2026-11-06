@@ -24,6 +24,8 @@ public class AnalizadorNumeros {
         int max = obtenerExtremo(numeros, 1);
 
         mostrarDatos(numeros, suma, media, positivos, negativos, ceros, max, min);
+
+        sc.close();
     }
 
     public static int calcularSuma(int[] numeros){
