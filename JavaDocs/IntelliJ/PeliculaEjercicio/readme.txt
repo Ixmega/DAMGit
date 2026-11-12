@@ -1,1 +1,0 @@
-Este es el primer ejercicio, una prueba utilizando constructores, gets y sets, además de utilizando control de errores y un overwrite al toString del objeto
