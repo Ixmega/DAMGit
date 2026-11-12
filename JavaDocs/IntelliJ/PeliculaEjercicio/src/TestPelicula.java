@@ -4,8 +4,8 @@ public class TestPelicula {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        /*Podemos usar los dos constructores al ser Override
-          Ambas opciones, mostrarDatos y print son iguales, al utilizar toString con overwrite
+        /*Podemos usar los dos constructores infiferentemente, uno no sobreescribe al otro
+          Ambas opciones, mostrarDatos y print son iguales, al utilizar toString con override
           los set y get funcionan*/
         Pelicula logan = new Pelicula("Logan", "James Mangold", 135);
         logan.mostrarDatos();
