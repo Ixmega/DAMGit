@@ -1,0 +1,4 @@
+He creado la clase Profesor con los atributos nombre, departamento y salario. He creado el constructor utilizando los setters para asignar los valores y validar los datos.
+He creado los getters y setters, controlando que el nombre y el departamento no puedan ser nulos ni estar vacíos, y que el salario no pueda ser negativo.
+También he utilizado override con el método toString y he creado el método mostrarInformacion para mostrar los datos del profesor.
+Por último, he creado la clase TestProfesor para probar el funcionamiento de la clase, mostrando la información del profesor, modificando su salario y comprobando que no se permita asignar un salario negativo, utilizando try catch para gestionar el error.
