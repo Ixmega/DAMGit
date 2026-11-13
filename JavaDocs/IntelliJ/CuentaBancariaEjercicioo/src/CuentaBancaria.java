@@ -4,6 +4,10 @@ public class CuentaBancaria {
 
     public CuentaBancaria(String titular, double saldoInicial) {
         this.titular = titular;
+
+        if(saldoInicial<=0){
+            throw new IllegalArgumentException("El saldo inicial debe ser superior a 0.");
+        }
         this.saldo = saldoInicial;
     }
 

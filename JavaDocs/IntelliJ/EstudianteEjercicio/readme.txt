@@ -1,0 +1,5 @@
+He creado la clase Estudiante con los atributos nombre, edad y nota. He creado el constructor utilizando los setters para asignar los valores y validar los datos.
+He creado los getters y setters, controlando que el nombre no pueda estar vacío ni ser nulo, que la edad no sea inferior a 3, para estudiantes, y que la nota esté entre 0 y 10, ambos incluidos.
+He añadido la variable estática privada totalEstudiantes y el método estático getTotalEstudiantes() para consultar cuántos estudiantes se han creado correctamente. El contador solo aumenta al finalizar el constructor, una vez superadas todas las validaciones.
+También he utilizado override con el método toString y he creado el método mostrarInformacion para mostrar los datos del estudiante.
+Por último, he creado la clase TestEstudiante para probar la creación de estudiantes, las distintas notas y las validaciones de los setters, utilizando try catch para gestionar los errores y comprobando que el contador no aumenta cuando falla la creación de un estudiante.
