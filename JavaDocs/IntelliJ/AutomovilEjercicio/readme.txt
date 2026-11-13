@@ -1,0 +1,5 @@
+He creado la clase Automovil con los atributos marca, modelo y año. He creado un constructor que utiliza los setters para asignar los valores y comprobar que sean válidos desde el momento de crear el objeto.
+He creado los getters y setters, controlando que la marca y el modelo no puedan ser nulos ni estar vacíos, y que el año no sea inferior a 1886.
+He creado una constante estática ANIO_PRIMER_AUTOMOVIL para almacenar el año del primer automóvil.
+También he utilizado override con el método toString y he creado el método mostrarInformacion para mostrar los datos del automóvil.
+Por último, he creado la clase TestAutomovil para probar el funcionamiento de la clase, incluyendo pruebas de los setters y de la creación de objetos con datos incorrectos, utilizando try catch para gestionar las excepciones.
