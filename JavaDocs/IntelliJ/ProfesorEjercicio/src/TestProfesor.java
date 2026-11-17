@@ -10,5 +10,10 @@ public class TestProfesor {
         } catch (IllegalArgumentException e){
             System.out.println("Error: " + e.getMessage());
         }
+        try{
+            teacher.setNombre("");
+        } catch (IllegalArgumentException e){
+            System.out.println("Error: " + e.getMessage());
+        }
     }
 }
