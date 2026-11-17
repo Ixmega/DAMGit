@@ -1,0 +1,4 @@
+He creado la clase Impresora para practicar la sobrecarga de métodos (overloading). He creado varios métodos imprimir con el mismo nombre, pero diferentes parámetros, permitiendo imprimir enteros, decimales y textos.
+También he creado una versión del método imprimir que recibe un texto y un número de veces, repitiendo la impresión mediante un bucle for.
+He añadido un comentario explicando que la firma de un método depende de su nombre y sus parámetros, por lo que no se pueden crear dos métodos con la misma firma aunque tengan distinto tipo de retorno.
+Por último, he creado la clase TestImpresora para probar las distintas versiones del método imprimir con diferentes tipos de datos y argumentos.
