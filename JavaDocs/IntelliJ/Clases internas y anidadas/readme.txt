@@ -1,0 +1,3 @@
+Se crea la clase Casa con una clase interna no estática Habitacion, que puede acceder a la dirección privada de su casa, y una clase anidada estática Constructora, que puede crearse sin necesidad de una casa.
+En Main se crean los tres objetos y se muestran sus datos mediante toString().
+Las clases internas necesitan una instancia de la clase exterior y pueden acceder a sus atributos privados. Las clases estáticas no necesitan esa instancia.
