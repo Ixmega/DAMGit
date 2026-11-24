@@ -1,0 +1,4 @@
+Se crea la clase Libro, sobrescribiendo toString(), equals() y hashCode() para mostrar y comparar sus atributos (titulo, autor y anio).
+En TestLibro se crean dos libros con los mismos datos y se comprueba la diferencia entre == y equals(), además de probar las comparaciones con null, un String y el propio objeto.
+También se utilizan HashSet y HashMap para comprobar que ambos libros se reconocen como iguales. Finalmente, se comenta hashCode() para observar cómo afecta a estas colecciones.
+equals() compara el contenido de los objetos y hashCode() ayuda a localizarlos. Ambos deben sobrescribirse para que HashSet y HashMap funcionen correctamente con objetos propios.
