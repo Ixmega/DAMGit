@@ -1,0 +1,4 @@
+Se crea la clase Empleado con los atributos privados nombre, salario y departamento, junto con sus getters y setters. También se añade una comprobación del salario mínimo mediante IllegalArgumentException.
+Se crean las clases Gerente y Desarrollador, que heredan de Empleado y añaden sus propios atributos. Ambas utilizan super() para inicializar los datos heredados y sobrescriben mostrarInformacion() reutilizando el método de la clase padre.
+Gerente incorpora calcularSalarioTotal(), que suma el salario y el bono. En TestEmpleado se crean los tres tipos de empleado, se muestra su información y se comprueba qué ocurre al introducir un salario inferior al mínimo.
+Al ser los atributos de Empleado privados, las subclases necesitan utilizar los getters para acceder a ellos. Si fueran protected, podrían acceder directamente, por ejemplo, a salario desde Gerente, sin necesidad de getSalario().
