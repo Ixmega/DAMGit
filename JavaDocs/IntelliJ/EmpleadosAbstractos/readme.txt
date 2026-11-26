@@ -1,0 +1,3 @@
+Se crea la clase abstracta Empleado, que contiene los datos y métodos comunes de los empleados, incluyendo el método abstracto calcularSalario().
+Se implementan dos clases que heredan de ella: EmpleadoPorHoras y EmpleadoAsalariado, cada una con su propia forma de calcular el salario y mostrar su información.
+En Main se utiliza un array de tipo Empleado para almacenar ambos tipos de empleados y recorrerlos mediante un bucle, comprobando el funcionamiento del polimorfismo.

@@ -1,0 +1,4 @@
+Se crea la clase abstracta Suscripcion, con el nombre del usuario y el método abstracto calcularCuotaMensual().
+Se implementan dos clases hijas: SuscripcionFija, que devuelve una cuota mensual fija, y SuscripcionPorUso, que calcula el importe según los gigas consumidos y el precio por giga. Ambas incluyen comprobaciones para evitar valores negativos.
+En MainSuscripcion se crea un array de tipo Suscripcion con distintos tipos de suscripciones. Se recorre mediante un bucle para mostrar la información y calcular la suma total de las cuotas mensuales.
+También se comprueba que no se puede instanciar directamente una clase abstracta.
