@@ -1,0 +1,4 @@
+Se crea la clase Instrumento, que contiene el nombre y los métodos tocar() y mostrarInformacion(). A partir de ella se implementan las clases Guitarra y Bateria, que heredan de Instrumento, añaden sus propios atributos y sobrescriben los métodos para mostrar información y sonidos específicos.
+En TestInstrumento se crea un array de tipo Instrumento con objetos de las tres clases. Se recorre mediante un bucle para mostrar su información y llamar a tocar(), utilizando instanceof y casting para ejecutar golpearPlatillo() únicamente cuando el objeto es una batería.
+También se crea un ArrayList<Instrumento> con distintos instrumentos y se recorre llamando al método estático presentar(), que recibe cualquier objeto de tipo Instrumento y muestra su nombre y sonido.
+Por último, se incluye como comentario el intento de llamar directamente a golpearPlatillo() desde una referencia Instrumento, explicando el error de compilación: ese método solo existe en Bateria.
