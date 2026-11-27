@@ -1,0 +1,4 @@
+Se crea la clase Producto, con los atributos nombre, precio y cantidad. Incluye comprobaciones para evitar valores negativos y un método para calcular el valor total del producto.
+Se implementan dos clases que heredan de Producto: Electronico, que añade una garantía en meses y permite calcular su fecha de finalización, y Alimento, que incorpora una fecha de caducidad utilizando LocalDate.
+Ambas clases sobrescriben mostrarInformacion() para mostrar también sus atributos específicos, reutilizando la información de la clase padre mediante super.
+En TestProducto se crea un array de tipo Producto con distintos productos, comprobando el funcionamiento de la herencia y el polimorfismo. También se calcula el valor total de cada producto, se consulta la fecha de garantía de los electrónicos y se realizan pruebas de errores con precios y cantidades negativos.
