@@ -1,0 +1,4 @@
+Se crea la clase Cuenta, que contiene los datos comunes de una cuenta bancaria, como el número de cuenta, el titular y el saldo. Incluye los métodos para ingresar y retirar dinero, con comprobaciones que impiden realizar operaciones con cantidades no válidas o retirar más dinero del disponible.
+Se implementan dos clases que heredan de Cuenta: CuentaAhorros, que añade un porcentaje de interés anual y un método para aplicarlo al saldo, y CuentaCorriente, que incorpora un límite de sobregiro y sobrescribe el método retirar() para permitir que el saldo pueda quedar en negativo dentro de ese límite.
+Las tres clases cuentan con su propio método mostrarInformacion(), reutilizando la información de la clase padre mediante super.
+En TestCuenta se prueban los distintos tipos de cuenta, comprobando la aplicación de intereses, las retiradas con sobregiro y el rechazo de operaciones que superan el saldo permitido mediante excepciones IllegalArgumentException.
